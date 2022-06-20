@@ -1,0 +1,57 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(18, 18, 18);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: large;
+    line-height: 2;
+}
+
+/*.bgcircle{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: darkgray;
+}*/
+
+
+.answer{
+    background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    height: 30vh;
+}
+
+
+.tasks{
+    width: 30vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+
+.task{
+background-color: gray;
+}
+
+
+.deleted{
+    height: 80%;
+    width: 10%;
+    justify-content: right;
+}
+
+
+.answer button{
+    width: 5vw;
+    height: 3vh;
+    color: white;
+    background-color: rgb(71, 71, 71);
+}
