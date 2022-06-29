@@ -18,6 +18,9 @@ const add = () => {
             task.remove();
 
         })
+    
+    
+
 
     task.appendChild(deleted);
     task2.appendChild(task);
